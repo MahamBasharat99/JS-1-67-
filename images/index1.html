@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assign...1-67</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Assignment1,2
+  <script>
+    var visitorname = prompt("Enter your name");
+    var product = prompt("Enter your product name you want to purchase");
+    var quantity = prompt("How many products you want to order");
+    var site= "XYZ Clothing Store";
+    document.write("<br> "+ visitorname+ " ordered " + quantity +" "+  product +" on "+site+"." );
+</script> -->
+
+
+  <!-- Assignment4 -->
+  <!-- <script>
+  // task 1
+  var name1, name2, name3;
+  // task 2
+  // legal variables
+  document.write("<br>Legal Variables<br>var $name, _name,name,x1y1z1,$erum_ik; "); var $name, _name, name, x1y1z1, $erum_ik;
+  // illegal variables
+  // var 123, 12re, &uik, script,daw ood;
+  document.write("<br>ILLegal Variables<br>  var 123, 12re, &uik, script,daw ood;");
+  // task 3
+  document.write("<br><h1>Rules For Naming JS Variables</h1>");
+
+  document.write("<br>Variables names can only contain number, letter, $ or _ . For example:$my_firstVariable ");
+  document.write("<br>Variable must begin with letter, $ or _ .For example:$name, _name , name");
+  document.write("<br>Variable names are case sensitive ");
+  document.write("<br>Variable names are not JS keywords.");
+
+</script> -->
+
+
+  <!-- Assignment5 -->
+  <!-- <script>
+  var num1,num2,sum;
+  num1=10;
+  num2=20;
+  sum=num1+num2;
+  sub=num2-num1;
+  mul=num1*num2;
+  mod=num2%num1;
+  // task1
+  document.write("<br>Sum of " +num1 +" and "+ num2 +" is " +sum);
+  // task2
+  document.write("<br>Subtraction of " +num1 +" and "+ num2 +" is " +sub);
+  document.write("<br>Multipication of " +num1 +" and "+ num2 +" is " +mul);
+  document.write("<br>Modulus of " +num1 +" and "+ num2 +" is " +mod);
+// task3
+var jsvar;
+jsvar=100;
+document.write("<br><br>Value after Variable Declaration is  " +jsvar);
+jsvar=5;
+document.write("<br>Initial value  is  " +jsvar);
+jsvar++;
+document.write("<br>Value after increment   is  " +jsvar);
+jsvar=jsvar+7;
+document.write("<br>Value after addition is  " +jsvar);
+jsvar--;
+document.write("<br>Value after decrement   is  " +jsvar);
+document.write("<br>Remainder   is  " +jsvar%3);
+
+//    task4
+var costmovie=600 ;
+costmovie= costmovie*5;
+document.write("<br><br>Total cost to buy 5 tickets of a movie is  "+ costmovie +"PKR.");
+
+// task5
+var tableof=4;
+document.write("<br><br><h1>Table of "+tableof+"</h1>");
+for(var i=1; i<=10; i++)
+{var tab="";
+var tab=tableof*i;
+document.write("<br>" +tableof +" * "+i+" = " +tab); }
+
+
+// task #6
+document.write("<h1>Temperature Converter</h1>")
+var celciustemp;
+celciustemp=25;
+var F;
+F=(celciustemp*9/5)+32;
+document.write( +celciustemp + "&#8451"+" is " + F+"&#8457" );
+var farenheittemp;
+farenheittemp=70;
+var C;
+C=(farenheittemp-32)*5/9;
+document.write("<br>" +farenheittemp+"&#8457"+" is " + C+"&#8451" );
+// task#7
+document.write("<h1>Shopping Cart</h1>")
+var priceitem1=650;
+var priceitem2=100;
+var quantity1=3;
+var quantity2=7;
+var shippingcharges=100;
+var add=(priceitem1*quantity1)+(priceitem2*quantity2)+shippingcharges;
+document.write(" Price of item 1 is " +priceitem1);
+document.write("<br> Quantity of item 1 is " +quantity1); 
+document.write("<br> Price of item 1 is " +priceitem2);
+document.write("<br> Quantity of item 1 is " +quantity2); 
+document.write("<br> Shipping Charges is " +shippingcharges );
+document.write("<br> Total cost of your order is " +add);
+// task #8
+document.write("<h1>Mark Sheet</h1>")
+var totalmarks=980;
+var marksobtaim=804;
+var percentage=marksobtaim/totalmarks *100;
+document.write("Total Marks:" +totalmarks);
+document.write("<br>Obtained Marks:" +marksobtaim);
+document.write("<br>Percentage is :" +percentage);
+// task #9
+document.write("<h1>Convet to pakistani currency</h1>")
+var usdollars=10;
+var saudiriyal=25;
+var uspak=usdollars*104.80;
+var saudipak=saudiriyal*28;
+var toatalcurency=uspak+saudipak;
+document.write("Total Currency in PKR :" +toatalcurency);
+// task #10
+document.write("<h1>Operation in a single expression</h1>")
+var number=10;
+var singlexpression=(number+5)*10/2;
+document.write("Now value is :" +singlexpression);
+// task #11
+document.write("<h1>Calculate Age</h1>")
+var currentyear=2016;
+var birthyear=1992;
+var findyear=currentyear-birthyear;
+document.write("Current Year" +currentyear);
+document.write("<br>Birth Year " +birthyear);
+document.write("<br>Your Age is  :" +findyear);
+document.write("<br>OR");
+document.write("<br>Your Age is  : 23 years 6 month" );
+// task #12
+document.write("<h1>The Geometrizer</h1>")
+var radius=20;
+var circumference=2*3.142*20;
+var area=3.142*radius*radius;
+document.write("Radius of a Circle " +radius);
+document.write("<br>Circumference of a Circle " +circumference);
+document.write("<br>Arae of a Circle " +area);
+// task#13
+document.write("<h1>LifeTime Supply Calculator</h1>")
+var favitem="Rio Choclate Biscuit";
+var itemneed=3;
+var estimateage=65;
+var curentage=15;
+var totalbiscuit=(estimateage-curentage)*itemneed;
+document.write(" Favourite Item " +favitem);
+document.write("<br> Current Age " +curentage); 
+document.write("<br> Estimate Age " +estimateage);
+document.write("<br> Amount of Biscuits Per Day " +itemneed); 
+document.write("<br> You will need " +totalbiscuit+ " biscuits to last you until the ripe old age " +estimateage);
+</script> -->
+
+
+
+  <!-- Assignment6-9 -->
+  <!-- <script>
+  // task#1
+  document.write("<h1>Result</h1>")
+var aa=10;
+document.write("The value of a is: " +aa);
+document.write("<br>....................................... <br>" );
+++a;
+document.write("<br>The value of ++a is: " +aa);
+document.write("<br>Now the value of a is: " +aa+"<br>");
+document.write("<br>The value of a++ is: " +aa);
+a++;
+document.write("<br>Now the value of a is: " +aa +"<br>");
+--a;
+document.write("<br>The value of --a is: " +aa);
+document.write("<br>Now the value of a is: " +aa +"<br>");
+document.write("<br>The value of a-- is: " +aa);
+a--;
+document.write("<br>Now the value of a is: " +aa);
+
+
+//  task#2
+var a=2,b=1;
+var result=--a - --b + ++b + b--;
+// --a=1;
+// --a - --b=1-0;
+// --a - --b + ++b=1+1=2;
+// --a - --b + ++b + b--=2+1;
+document.write("<br><br>a  is: " +a);
+document.write("<br>b  is: " +b);
+document.write("<br>Result  is: " +result+"<br>");
+
+
+
+// task3
+var name=prompt("Enter Your name");
+alert("Welcome to " +name);
+
+
+// task4
+
+var tableof=prompt("Enter number for table");
+if(tableof!=""){
+document.write("<br><br><h1>Table of "+tableof+"</h1>");
+for(var i=1; i<=10; i++)
+{var tab="";
+var tab=tableof*i;
+document.write("<br>" +tableof +" * "+i+" = " +tab); }}
+else{
+var tableof=5;
+document.write("<br><br><h1>Table of "+tableof+"</h1>");
+for(var i=1; i<=10; i++)
+{var tab="";
+var tab=tableof*i;
+document.write("<br>" +tableof +" * "+i+" = " +tab); }
+
+}
+
+
+// task5
+var subject1=prompt("Enter first Subject");
+var subject2=prompt("Enter second Subject");
+var subject3=prompt("Enter third Subject");
+var outof=100;
+var obt1=+prompt("Obtain Marks of "+ subject1+"subject");
+var obt2=+prompt("Obtain Marks of "+ subject2+"subject");
+var obt3=+prompt("Obtain Marks of "+ subject3+"subject");
+var totalmarks=outof*3;
+var obtainmarks=obt1+obt2+obt3;
+var persub1=obt1/outof*100;
+var persub2=obt2/outof*100;
+var persub3=obt3/outof*100;
+var percentage=obtainmarks/totalmarks*100;
+document.write("<table><tr><th><b>Subjects &nbsp Total-Marks &nbsp Obtained-Marks &nbsp Percentage</th></tr>");
+document.write(" <table><tr><td>&nbsp&nbsp&nbsp"+subject1+" &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp"+outof+" &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    "+obt1+"    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp "+persub1+"%</td></tr>");
+document.write(" <table><tr><td>&nbsp&nbsp&nbsp"+subject2+" &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp"+outof+" &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    "+obt2+"    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp "+persub2+"%<td></tr>");
+document.write("<table> <tr><td>&nbsp&nbsp&nbsp"+subject3+" &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp"+outof+" &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    "+obt3+"    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp "+persub3+"%<td></tr>");
+document.write(" <table><tr><td>&nbsp&nbsp&nbsp  &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp<b>300</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp  <b> "+obtainmarks+"</b>    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>"+percentage+"</b>%</td></tr></table>");
+
+
+
+
+</script> -->
+
+
+
+  <!-- Assignment9-11 -->
+  <!-- <script>
+  // task#1
+  //  var cityname=prompt("Enter Your City Name");
+  //  if(cityname === "Karachi"||"karachi"||"KARACHI")
+  //  {
+  //      alert("Welcome to City of Lights");
+  // }
+
+
+// task#2
+
+var yourgender=prompt("Enter Your Gender");
+if (yourgender=== "male"|| yourgender=== "MALE"|| yourgender=== "Male")
+{
+alert("Good Morning Sir");
+}
+else if(yourgender=== "female"|| yourgender=== "FEMALE"|| yourgender=== "Female")
+{
+  alert("Good Morning Ma,am");
+}
+else{
+  alert("Welcome");
+}
+
+
+
+// task3
+var signalcolor=prompt("Enter Signal Color");
+if (signalcolor=== "red"|| signalcolor=== "Red"|| signalcolor=== "RED") {
+alert("MUST STOP");
+}
+else if (signalcolor=== "yellow"||signalcolor=== "YELLOW"|| signalcolor=== "Yellow") {
+alert("READY TO MOVE");
+}
+else if(signalcolor==="green"||signalcolor=== "GREEN"|| signalcolor=== "Green") {
+alert("MOVE NOW");
+}
+else{
+alert("Invalid color")
+}
+
+//   task4
+
+var fuel=prompt("Enter remaining car fuel in litres");
+if(fuel<0.25){
+alert("Please refill the fuel in Car")
+}
+else{
+alert("Fuel is enough");
+}
+
+
+// task5
+// 5(a)
+var a = 4; 
+if (++a === 5)
+{ alert("given condition for variable a is true"); 
+}
+// here condition is true
+// 5(b)
+var b = 82;
+if (b++ === 83)
+{ alert("given condition for variable b is true"); 
+}
+// here condition is not true bcz of post increment
+// 5(c)
+var c = 12; 
+if (c++ === 13){ 
+alert("condition 1 is true"); 
+}
+//   false
+ if (c === 13){
+      alert("condition 2 is true"); 
+      } 
+      // True
+      if (++c < 14){ alert("condition 3 is true"); }
+      // false
+       if(c === 14){ alert("condition 4 is true"); }
+      //  true
+       // 5(d)
+var materialCost = 20000;
+var laborCost = 2000; 
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+ alert("The cost equals"); 
+ }
+ // 5(e)
+if (true){
+alert("True"); 
+} 
+if (false){
+     alert("False");
+     }
+     // 5(f) 
+      if("car" < "cat"){
+          alert("car is smaller than cat");
+           }
+
+          //  task6
+
+
+//                 var subjectmarks1= +prompt("Enter Your Marks of subject 1");
+//                 var subjectmarks2= +prompt("Enter Your Marks of Subject 2");
+//                 var subjectmarks3= +prompt("Enter Your Marks of Subject 3");
+//                 var overalltotalmarks= +prompt("Enter Your Total Marks ");
+//                 var obtainmarks= subjectmarks1+subjectmarks2+subjectmarks3;
+//                 var percentagestudent= obtainmarks/overalltotalmarks*100;
+// document.write("<h1>Marks Sheet</h1>")
+
+//                 document.write("<br>Total Marks: "+overalltotalmarks);
+//                 document.write("<br>Marks Obtain: "+obtainmarks );
+//                 document.write("<br>Percentage: " +percentagestudent+"%");
+
+//                 if(percentagestudent >=80){
+//                     document.write("<br>Grade: A-one");
+//                     document.write("<br>Remarks:  Excellent");
+//                 }
+//                 else if(percentagestudent >=70){
+//                     document.write("<br>Grade: A");
+//                     document.write("<br>Remarks:  Good");
+//                 }
+//                 else if(percentagestudent>=60){
+//                     document.write("<br>Grade: B");
+//                     document.write("<br>Remarks:  You need to improve");
+//                 }
+//                 else if(percentagestudent<60){
+//                     document.write("<br>Grade: Fail");
+//                     document.write("<br>Remarks:  Sorry");
+//                 }
+
+
+// task7
+var number=5;
+var guess=+prompt("Plz Guess the number between 1 & 10");
+if(number===guess){
+alert("Bingo! Correct Answer");
+
+}
+else if(number===++guess){
+alert("Close Enough to Correct Answer");
+}
+else{
+alert("Sorry you are fail to guess");
+}
+
+
+// task8
+
+var numberchoice=+prompt("Enter the number of your choice");
+if(numberchoice % 3==0 && numberchoice !== 0){
+alert("Number is divisible by 3");
+
+}
+else {
+alert("Number not divisible by 3");
+}
+
+
+
+// task9
+
+var numberevenodd=+prompt("Enter the number either even or odd");
+if(numberevenodd % 2==0 && numberevenodd !== 0){
+alert("Number is even");
+
+}
+else {
+alert("Number is odd");
+}
+
+
+
+//  task10
+
+
+          var outsidetemperature= +prompt("Enter temperature");
+
+document.write("<h1>Temperature</h1>")
+
+
+
+          if(outsidetemperature>40){
+              document.write("<br>ITs too hot outside");
+
+          }
+          else if(outsidetemperature>30){
+              document.write("<br>Weather Today is  normal");
+
+          }
+          else if(outsidetemperature>20){
+              document.write("<br>Grade: B");
+              document.write("<br>Today Weather is Cool");
+          }
+          else if(outsidetemperature>10){
+              document.write("<br>OMG Today Weather is too cool");
+
+          }
+          else{
+              document.write("You can,t enter desired temperature")
+          }
+
+
+// task11
+
+          var firstnum= +prompt("Enter  1 number");
+          var secondnum= +prompt("Enter 2 number");
+          var operation= prompt("Enter operation like +-*/%");
+
+
+document.write("<h1>Calculator</h1>")
+
+          document.write("<br>First Number "+firstnum);
+          document.write("<br>Second Number "+secondnum );
+          document.write("<br>Operation you perform is " +operation);
+
+          if(operation==="+"){
+              var add=firstnum +secondnum;
+              document.write("<br>"+firstnum+" + "+secondnum+" = "+add );
+           }
+          else   if(operation==="-"){
+              var sub=firstnum -secondnum;
+              document.write("<br>"+firstnum+" - "+secondnum+" = "+sub );
+           }
+           else   if(operation==="*"){
+              var mul=firstnum * secondnum;
+              document.write("<br>"+firstnum+" * "+secondnum+" = "+mul );
+           }
+           else   if(operation==="/"){
+              var div=firstnum / secondnum;
+              document.write("<br>"+firstnum+" / "+secondnum+" = "+div );
+           }
+           else   if(operation==="%"){
+              var mod=firstnum % secondnum;
+              document.write("<br>"+firstnum+" % "+secondnum+" = "+mod );
+           }
+</script> -->
+
+
+
+
+  <!-- Assignment 12-13 -->
+  <!-- <script>
+    // task1
+    var value=prompt("Enter number,letter etc");
+    if(value.charCodeAt(0)>=65 && value.charCodeAt(0)<=90){
+        alert("this is Uppercase ");
+    }
+    else if(value.charCodeAt(0)>=97 && value.charCodeAt(0)<=122){
+        alert("this is Lowercase");
+    
+    }
+    else{
+        alert("this is number");
+    }
+   // task2
+    var val1=+prompt("Enter first integer");
+    
+    var val2=+prompt("Enter second integer");
+    if(val1===val2){
+        alert("Integers are equal")
+    }
+    else if(val1>val2){
+        alert("integer 1 is greater");
+    }
+    else{
+        alert("integer 2 is greater")
+    }
+    // task3
+    var inputnum=+prompt("Enter number");
+    if(inputnum>0){
+        alert("Number is positive")
+    }
+    else if(inputnum<0){
+        alert("Number is negative");
+    }
+    else{
+        alert("Number is zero");
+    }
+   // task4
+    var entervowel=prompt("Enter Character of 1 length");
+    if(entervowel==="A"||entervowel==="E"||entervowel==="I"||entervowel==="O"||entervowel==="U"||entervowel==="a"||entervowel==="e"||entervowel==="i"||entervowel==="o"||entervowel==="u"){
+        alert("True")
+    }
+    else {
+        alert("False");
+    }
+  // task5
+
+    
+    var correctpass=prompt("Enter & Reset Your Password");
+    var usergetpass=prompt("Enter Password");
+    if(usergetpass==="")
+{
+   alert("Plz enter your password");
+}
+else if(correctpass===usergetpass){
+   alert("Password matches the original password")
+}
+else{
+   alert("Inncorrect password");
+}
+// task 6
+var greeting; 
+var hour = 13; 
+if (hour < 18) {
+ greeting = "Good day"; 
+ alert(greeting);
+ }
+ else
+ {
+greeting = "Good evening";
+alert(greeting); }
+  // task 7
+var time=prompt("Enter clock time in 24 hours format")
+
+// if (time<=12) {
+
+//   alert(time+"AM")
+//      }
+//      else if(time>=12)
+//      {
+//          time=time-12;
+
+//  alert(time+"PM"); }
+//  else{
+//      alert("Invalid password");
+//  }
+if(time>=00 && time<= 12){
+alert("Good Morning!");
+}
+else if(time>=12 && time<= 17){
+alert("Good AfterNoon!");
+
+}
+else if(time>=17 && time<= 21){
+alert("Good Evening!");
+
+}
+else if(time>=21 && time<= 23){
+alert("Good Night!");
+
+}
+</script> -->
+
+
+
+  <!-- Assignment 14-16 -->
+  <!-- <script>
+  // task 1
+  var students = [""];
+  //   // task 2
+  //  var stud=new students();
+  //   // task 3
+   var students = ["Maham","Mubeen","Maheen","Muqadass"];
+  //   // task 4
+var number=[1,2,3,4,5,6];
+  //     // task 5
+     var boolean=[true,false];
+  //     // task 6
+    var mixedArray = [1, "Bob", "Now is", true];
+      // task 7
+
+      var education=["SSC","HSC","BCS","BCOM","BS","MS","PhD","M.phil"];
+      document.write("<h1>Qualification</h1>")
+      var m=0;
+ for(var i=0;i<8;i++)
+    {
+
+      m++;
+      document.write( m +"   "+education[i]+"<br>");
+      }
+        // task 8
+        var student=["maham","mubeen","maheen"];
+        var score=[320,230,480];
+        document.write("<br><br>Score of "+student[0]+" is"+score[0]+".Percentage :"+score[0]/500*100+"%")
+        document.write("<br>Score of "+student[1]+" is"+score[1]+".Percentage :"+score[1]/500*100+"%")
+        document.write("<br>Score of "+student[2]+" is"+score[2]+".Percentage :"+score[2]/500*100+"%")
+
+          // task 9
+           var color=["red","green","blue"];
+          document.write("<br><br>"+color);
+
+
+          // var usercolor=prompt("Enter color");
+          // color.unshift(usercolor);
+          // // document.write("<br><br>"color);
+
+
+          // var usercolor=prompt("Enter color");
+          // color.push(usercolor);
+          //     document.write("<br><br>"+color);
+
+
+          color.unshift("Grey","Orange");
+           document.write("<br><br>"+color);
+           color.shift();
+           document.write("<br>"+color);
+           color.pop();
+           document.write("<br>"+color);
+
+
+
+           var user=prompt("Enter color name ");
+           var userindex=prompt("Enter index at which colorname is add ");
+           color.splice(userindex,0,user);
+
+           document.write("<br>"+color);
+
+
+           var userdel=prompt("Enter how many colors you want to delete");
+           var userindexdel=prompt("Enter index at which colorname is delete ");
+           color.splice(userindexdel,2);
+
+           document.write("<br>"+color);
+
+
+
+            // task 10
+            var scoreofstudent=[320,230,120,480];
+            scoreofstudent.sort();
+            document.write("<br><br>"+scoreofstudent);
+
+
+            // task11
+            var cities=["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+            var copy=cities.slice(2,4);
+            document.write("<br><br>"+copy);
+
+            // task12
+            document.write("<h1>Arrays</h1>");
+            var arr = ["This","is","my","cat"];
+            document.write("<br><br>"+arr);
+            document.write("<h1>Strings</h1>");
+           var arrjoin= arr.join("   ");
+            document.write(arrjoin+"<br>");
+
+
+            // task13
+            document.write("<h1>Devices</h1>");
+            var array=["Keyboard","Mouse","Printer","Monitor"];
+            document.write(array+"<br>");
+            for(var i=0;i<array.length;i++){
+                document.write("OUT<br>"+array.shift()+"<br>");
+                array.length=array.length+1;
+            }
+              // task14
+              var arrr=["Apple","Samsung","Motorolla","Sony","Haier"];
+            document.write("<br>"+arrr+"<br>");
+            for(var i=arrr.length-1;i>=0;i--){
+                document.write("OUT<br>"+ arrr.pop()+"<br>");
+            }
+
+               // task15
+               document.write("<h1>Dropdown</h1>");
+               var arrr3=["Apple","Samsung","Motorolla","Sony","Haier"];
+            document.write("<br>"+arrr3+"<br>");
+            document.write("<select>")  ;  
+            for(var i=0;i<arrr3.length;i++){
+
+          document.write("<option>"+arrr3[i]+"</option>");
+            }
+            document.write("</select>")  ;  
+</script> -->
+
+
+
+
+  <!-- Assignment 17-20 -->
+  <!-- <script>
+  // task1
+  // var m=[["maham"],["Ali"],["kanwal"]];
+  // alert(m);
+
+  // task2
+// var array=[0,1,2,3][1,0,1,2][2,1,0,1];
+// for(var i=0;i<arary.length;i++){
+//     document.write(array[i,j]);
+// }..
+  // task3
+  var num=[1,2,3,4,5,6,7,8,9,10];
+  for(var i=0;i<10;i++){
+      document.write(num[i]+"<br>");
+  }
+  // task4
+
+  var tableno=+prompt("Enter table #");
+  var tablelenght=+prompt("Enter table length");
+  document.write("<h1>Table of "+tableno +"</h1>");
+  for( var i=1; i<=tablelenght;i++){
+      var l=tableno*i;
+    document.write("<br>"+tableno +" * "+ i +"  = "+l) ; 
+  }
+  // task5
+  document.write("<h1>Fruits Name</h1>");
+var   fruits = ["Apple","Banana","Orange","Mango","Strawberry"];
+for(var i=0; i<fruits.length;i++){
+    document.write("<br>"+fruits[i]);
+}
+for(var i=0; i<fruits.length;i++){
+    document.write("<br>Element at index "+i+" is "+fruits[i]);
+}
+  // task6
+  document.write("<h1>Counting</h1><br>");
+  var a=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+  for(var i=0;i<15;i++){
+      document.write(""+a[i]+" , ");
+  }
+  document.write("<h1>Reverse Counting</h1><br>");
+  var r=[10,9,8,7,6,5,4,3,2,1];
+  for(var  i=0;i<10;i++){
+      document.write(""+r[i]+" , ");
+  }
+  document.write("<h1>EVen Counting</h1><br>");
+  var e=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+  for(var i=0;i<20;i=i+2){
+      document.write(""+e[i]+" , ");
+  }
+  document.write("<h1>Odd Counting</h1><br>");
+  var o=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+  for(var i=0;i<20;i=i+2){
+      document.write(""+o[i]+" , ");
+  }
+  document.write("<h1>Series</h1><br>");
+  var series=["2k","4k", "6k", "8k", "10k", "12k", "14k", "16k", "18k", "20k"];
+  for(var i=0;i<10;i++){
+      document.write(""+series[i]+" , ");
+  }
+
+  // task7
+ var A = ["cake", "apple-pie", "cookie", "chips", "patties"];
+  var enterchoice=prompt("Enter item");
+for(var i=0; i<A.length;i++){
+  if(enterchoice==A[i]){
+
+  alert(enterchoice+" is available in our bakery at index"+i);
+} 
+}
+alert("We are Sorry "+enterchoice+" is not available in our bakery");
+
+  // task8
+  var largest=[24,53,78,91,12];
+  var max=largest[0];
+  for(var i=0; i<largest.length;i++){
+      if(max<largest[i]){
+          max=largest[i];
+      }
+  }
+  document.write("<br><br>"+max+"is the largest number");
+  // task9
+  var small=[24,53,78,91,12];
+  var min=small[0];
+  for(var i=0; i<small.length;i++){
+      if(min>small[i]){
+          min=small[i];
+      }
+  }
+  document.write("<br>"+min+"is the smallest number<br>");
+  // task10
+  var arrtab=[];
+for(var i=1;i<100;i++){
+  arrtab[i]=5*i;
+  if(arrtab[i]<=100){
+  document.write(arrtab[i]+"   ");}
+}
+
+
+</script> -->
+
+
+
+
+
+
+
+
+
+
+  <!-- Assignment 43-48 -->
+  <!-- <a href="javascript:void(0)" onclick="alert('Hello World!')">Click</a> -->
+  <!-- task2 -->
+  <!-- <div style="margin:0px auto; border: 3px solid black;text-align:center" onclick="alert('Thanks for purchasing us!')"><img width="300px" src="images/glaxy.jpg" alt=""><img width="300px" src="images/iphone.jpg" alt="">
+  <img width="250px" src="images/samsung.jpg" alt="">
+<img width="250px" src="images/vivo.jpg" alt=""></div> -->
+
+
+
+  <!-- task3 -->
+  <!-- <table id="myTable">
+    <tr ><th>Index</th><th>Name</th><th>Class</th><th>buttons</th></tr>
+    <tr>
+      <td >0</td>
+     <td>Maham</td>
+     <td>10</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Mubeen</td>
+      <td>11</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Maheen</td>
+      <td>12</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Muqaddas</td>
+      <td>13</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Maha</td>
+      <td>14</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Marukh</td>
+      <td>15</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Munera</td>
+      <td>16</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Mahi</td>
+      <td>17</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Mubi</td>
+      <td>18</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Mahi</td>
+      <td>19</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+    <tr>
+      <td>10
+      </td>
+      <td>Mqds</td>
+      <td>20</td>
+      <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+    </tr>
+  </table> -->
+
+  <!-- task4 -->
+  <!-- <div  style="margin:0px auto;text-align: center; border: 4px solid black;width: 300px;"><img width="250px" height="250px" onMouseover="src='images/img2.png'" onMouseout="src='images/img1.jpg'" src="images/img1.jpg" alt=""></div> -->
+
+  <!-- task5 -->
+  <!-- <div style="margin:0px auto;text-align: center; border: 4px solid black;width: 300px;height: 200px;">
+<h1>Count</h1>
+<h2 id="count">0</h2>
+   <button onclick="inc()" style="height: 50px;width: 80px; margin-top:10px" >Increase</button>
+   <Button onclick="dec()" style="height: 50px;width: 80px; margin-top:10px" >Decrease</Button>
+ </div> -->
+
+
+
+  <!-- Assignment 49-52 -->
+  <!-- task1 -->
+  <!-- <h1 id="head">Form Submission</h1>
+
+ <form id="form" style="margin-left: 40px;" action="#">
+    <p id="dispalyAgain"> </p>
+  <label >First Name</label>
+   <input id="fname" class="set" type="text">
+   <label >Last Name</label>
+   <input id="lname" class="set" type="text">
+   <label>Email</label>
+   <input id="mail" class="set"type="email" name="" id="">
+   <label>Password</label>
+   <input id="pass" class="set"type="password" name="" id="">
+   <Button onclick="dataSubmit()">Sign UP</Button>
+  </form> -->
+
+  <!-- task 2 -->
+  <!-- <h1>Product Details</h1>
+
+  <p id="text">
+Our product is amazing hope so we can satisfy you at every stage about this
+product.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+Commodi nam illum, repellendus fugiat magni blanditiis consectetur 
+numquam tempore necessitatibus! Saepe quae sed quam.
+ Unde labore molestias ab rerum eius sequi.
+
+ Check More details about product
+ <a href="javascript:void(0)"><button id="btn"onclick="readMore()">Read More</button></a>
+  </p>
+
+  <p id="pera" style="visibility: hidden;">
+  Maham
+   Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+    Sit omnis quis, facilis nisi ut nostrum vero soluta quam, 
+    quaerat ducimus rem aperiam corrupti consectetur necessitatibus
+     quia placeat cupiditate! Temporib.
+ 
+</p> -->
+
+
+
+  <!-- Task3 -->
+
+
+
+  <div style="margin-left: 200px !important;">
+    <input class="inputget" type="text" placeholder="Enter student Name" id="getName">
+    <input class="inputget" type="text" placeholder="Enter student Class" id="getClass">
+    <button class="butt" onclick="addTable()">Add Student Details</button>
+    <button class="butt" onclick="delall()">Delete All</button>
+  </div>
+  <form action="">
+    <table style="margin-top: 40px;" width="500px"id="table"> 
+
+
+
+    </table>
+  </form>
+
+
+
+
+  <!-- // Assignment 52-57 
+// task1
+  -->
+  <!-- <div class="container" style="text-align: center;">
+    <img onclick="showImage(this)" width="20%" height="200px" data-toggle="modal" data-target="#exampleModal" src="images/1.jpg" alt="">
+    <img onclick="showImage(this)" width="20%" height="200px" data-toggle="modal" data-target="#exampleModal" src="images/11.jpg" alt="">
+    <img onclick="showImage(this)" width="20%" height="200px" data-toggle="modal" data-target="#exampleModal" src="images/6.jpg" alt="">
+    <img onclick="showImage(this)" width="20%" height="200px" data-toggle="modal" data-target="#exampleModal" src="images/7.png" alt="">
+  </div> -->
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Image show in modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img  class="modalimg" src="" id="modalImage" alt="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  -->
+
+
+  <!-- Task2 -->
+  <!-- <h1 style="text-align: center;text-decoration: underline;">Changing styles</h1>
+  <p class="paraset">My name is Maham and I am learning how to change the font
+     pixel by clicking on a button through javascript<br>
+     <button id="btn1" onclick="zoomIn()">Zoom IN(+)</button>
+     <button id="btn2" onclick="zoomOut()">Zoom OUT(-)</button>
+    </p> -->
+
+
+
+
+  <!-- Assignment 58-67
+    <div id="div">
+      <h1> DOM </h1>
+      <div id="form-content" class=”content”>
+      <label for=”first-name”>First Name</label>
+      <input type=”text” id="first-name" />
+      <label for=”last-name”>Last Name</label>
+      <input type=”text” id="last-name" />
+      <label for=”email”>Email</label>
+      <input type=”text” id="email" />
+      </div>
+      <div id="main-content" class="content">
+      <p class="render"> First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p><p class="render"> Email : alexbank@example.com</p>
+      <p class="render"> Country : Pakistan </p>
+      <p class="render"> contact : +92 300 1234567</p>
+      </div>
+      </div>
+     -->
+
+
+
+  <script src="app.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
+<!-- // NOTE: You can remove JUNKS from this site.
+// https://www.willpeavy.com/minifier/
+// Page -->
